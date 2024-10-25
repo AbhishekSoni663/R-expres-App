@@ -33,7 +33,7 @@ const App = () => {
     e.preventDefault();
     const postData = async () => {
       try {
-        const res = await axios.post("create", {
+        const res = await axios.post("/createUser", {
           email: email,
           pass: pass,
         });
