@@ -28,7 +28,7 @@ const App = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
-  axios.defaults.baseURL = "http://localhost:3500";
+  axios.defaults.baseURL = "https://practice-backend-two.vercel.app/";
   const handleSubmit = (e) => {
     e.preventDefault();
     const postData = async () => {
